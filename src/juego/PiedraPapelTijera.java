@@ -22,7 +22,7 @@ public class PiedraPapelTijera {
 			int jugador = sc.nextInt();
 			//asignamos un valor entre 0 y 2 incluidos de manera aleatorio a la variable ordenador
 			int ordenador = aleatorio.nextInt(3);
-
+//
 			if (jugador != ordenador) {
 				switch (jugador) {
 				case 0:
