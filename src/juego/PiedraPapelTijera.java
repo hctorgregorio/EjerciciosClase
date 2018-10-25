@@ -16,13 +16,13 @@ public class PiedraPapelTijera {
 		System.out.println("Este es el juego de piedra, papel o tijera\n 0 = piedra \n 1 = papel \n 2 = tijera");
 		
 		while (cont == 0) {
-			
+			//prueba de github
 			System.out.println("Elige una opcion entre 0 y 2 incluidos");
 			//recogemos el valor del jugador
 			int jugador = sc.nextInt();
 			//asignamos un valor entre 0 y 2 incluidos de manera aleatorio a la variable ordenador
 			int ordenador = aleatorio.nextInt(3);
-//
+
 			if (jugador != ordenador) {
 				switch (jugador) {
 				case 0:
